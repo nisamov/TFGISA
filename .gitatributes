@@ -1,0 +1,8 @@
+*.json linguist-detectable=true
+*.json linguist-language=JSON
+
+*.yaml linguist-detectable=true
+*.yaml linguist-language=Ansible
+
+*.yml linguist-detectable=true
+*.yml linguist-language=Ansible

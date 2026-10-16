@@ -1,0 +1,16 @@
+# Instalación y Configuración de Máquina Administrativa
+
+Instalación y cctualización de sistema administrativo.
+[Instalación Ubuntu Server](https://ubuntu.com/download/server)
+```sh
+sudo apt update && sudo apt upgrade -y # Actualización de paquetes y sistema
+```
+Instalación de dependencias `pip`.
+```sh
+sudo apt install python3-pip
+pip3 --version # Verificación de instalación
+```
+[Instalación Ansible](https://docs.ansible.com/projects/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible)
+```sh
+pip install ansible
+```
